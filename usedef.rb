@@ -1,0 +1,2 @@
+require "./def"
+hello()

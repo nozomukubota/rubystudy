@@ -1,0 +1,1 @@
+p /Ruby/=~"Diamond"

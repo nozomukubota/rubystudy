@@ -1,0 +1,7 @@
+stack = []
+ stack.push 1, 2, 3 # => [1, 2, 3]
+ stack.pop 2 # => [2, 3]
+ stack # => [1]
+ stack.unshift 4, 5, 6 # => [4, 5, 6, 1]
+ stack.shift 3 # => [4, 5, 6]
+p  stack # => [1]
