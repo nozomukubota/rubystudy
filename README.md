@@ -9,9 +9,9 @@ Ruby初心者の僕が何に詰まったのか、を記しておけば、あと�
 #2.クラスメソッド
 class << クラス名　〜 endといいう特殊なクラス定義の中にインスタントメソッド形式で定義するプログラム例で以下を実行しようとしたが、うまく実行出来なかった。
 
-classmethod.rb
-helloworld2.rbは動いた
-HelloWorld3.rbは動かなかった
+classmethod.rbは動かなかった<br>
+helloworld2.rbは動いた<br>
+HelloWorld3.rbは動かなかった<br>
 
 
 #組み込みクラスの継承の関係
