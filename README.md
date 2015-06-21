@@ -7,7 +7,7 @@ BasicObject
 - (3)Hash
 - (4)Regexp
 - (5)IO
--  →File
+--  →File
 - (6)Dir
 - (7)Numeric
 -  →Integer
