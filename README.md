@@ -9,14 +9,7 @@ Ruby初心者の僕が何に詰まったのか、を記しておけば、あと�
 #2.クラスメソッド
 class << クラス名　〜 endといいう特殊なクラス定義の中にインスタントメソッド形式で定義するプログラム例で以下を実行しようとしたが、うまく実行出来なかった。
 
-```ruby classmethod.rb
-class <<  HelloWorld
-	def hello(name)
-		puts "#{name} said hello."
-	end
-end
-HelloWorld.hello("John") #=>John said hello.
-```
+classmethod.rb
 
 #組み込みクラスの継承の関係
 
