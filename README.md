@@ -1,6 +1,6 @@
 # rubystudy
 BasicObject
--Object
---Array
---String
---Hash
+- Object
+-- Array
+-- String
+-- Hash
