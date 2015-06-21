@@ -23,13 +23,13 @@ BasicObject
 
 サブクラスとスーパークラスの関係は「is-aの関係にある」と呼ぶ。たとえば、StringクラスはスーパークラスであるObjectクラスとis-aの関係にある。
 
-`str ="This is a String"`
-`p str.is_a?(String) #=>true`
-`p str.is_a?(Object) #=>true `
+`str ="This is a String"`<br>
+`p str.is_a?(String) #=>true`<br>
+`p str.is_a?(Object) #=>true `<br>
 
 ここでは、StringもObjectクラスの1つであるため、どちらもtrueになっている。
 
-`p str.is_a?(Time) #=>faulse `
+`p str.is_a?(Time) #=>faulse `<br><br>
 
 stringクラスとTimeクラスはis-aの関係になっていないため、falseとなる。
-もちろん、*is-aの関係という言葉を使ってみたかっただけ*である！
+もちろん、**is-aの関係という言葉を使ってみたかっただけ**である！
