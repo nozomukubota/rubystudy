@@ -12,6 +12,7 @@ class << クラス名　〜 endといいう特殊なクラス定義の中にイ�
 classmethod.rbは動かなかった<br>
 helloworld2.rbは動いた<br>
 HelloWorld3.rbは動かなかった<br>
+（138Pから139P）
 
 
 #組み込みクラスの継承の関係
