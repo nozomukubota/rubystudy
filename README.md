@@ -29,7 +29,7 @@ BasicObject
 
 ここでは、StringもObjectクラスの1つであるため、どちらもtrueになっている。
 
-`p str.is_a?(Time) #=>faulse `<br><br>
+`p str.is_a?(Time) #=>false`<br><br>
 
 stringクラスとTimeクラスはis-aの関係になっていないため、falseとなる。
 もちろん、**is-aの関係という言葉を使ってみたかっただけ**である！
