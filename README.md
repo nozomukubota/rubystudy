@@ -15,6 +15,8 @@ HelloWorld3.rbは動かなかった<br>
 helloworld4.rbは動いた<br>
 （138Pから139P）
 
+#3.クラス変数
+140Pのhello_count.rbを実行すると動かなかった。・・・なんで？
 
 #組み込みクラスの継承の関係
 
