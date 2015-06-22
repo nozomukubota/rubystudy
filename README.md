@@ -6,6 +6,31 @@ Ruby初心者の僕が何に詰まったのか、を記しておけば、あと�
 * その後、仕方ないので、色んな技術ブログを読むと今度は高度すぎたりする内容だったりして、結局どうすればいいか分からず、詰まった。
 * cantmove_def test_mame.rbという動かなかったrubuプログラムを保存しておいた。後で聞いて解決しようと思う。
 
+*attr_accessor:nameをしたとしても、	def initializeは必要になる。特に引数を取る場合は、初期化をしないと駄目。
+
+class HelloWorld
+	attr_accessor:name
+=begin
+	def initialize(myname="Ruby")
+		@name=myname
+	end
+
+	def test_name
+		name="Ruby"
+		self.name="Ruby"
+	end
+=end
+	def greet
+		puts "Hi,I am #{@name}."
+	end
+
+end
+bob=HelloWorld.new()
+bob.name="bob"
+p bob.greet
+
+
+
 #2.クラスメソッド
 class << クラス名　〜 endといいう特殊なクラス定義の中にインスタントメソッド形式で定義するプログラム例で以下を実行しようとしたが、うまく実行出来なかった。
 
