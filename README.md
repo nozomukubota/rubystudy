@@ -53,3 +53,19 @@ BasicObject
 
 stringクラスとTimeクラスはis-aの関係になっていないため、falseとなる。
 もちろん、**is-aの関係という言葉を使ってみたかっただけ**である！
+
+#Ruby on Railsの設計哲学
+
+-DRY
+--Don't repeat yourself
+
+-CoC
+--Convention over Configuration
+--設定でやるよりも規約を遵守する方が効率的
+
+-MVCアーキテクチャ
+
+Model:データ
+View :画面
+Controller：ModelとViewをとりもつもの
+
