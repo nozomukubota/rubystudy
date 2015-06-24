@@ -1,0 +1,1 @@
+print '祜★BncdHP★2呧平'.chars.map(&:next)*'' 
