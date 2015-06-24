@@ -11,7 +11,7 @@ class HelloCount
 
 	def hello
 		@@count +=1
-		puts "Hello,world.I am #{name}.\n"
+		puts "Hello,world.I am #{@name}.\n"
 	end
 end
 
@@ -19,8 +19,8 @@ bob=HelloCount.new("Bob")
 alice=HelloCount.new("Alice")
 ruby=HelloCount.new
 
-p HelloCount.count   #=>0はうまくいった。
+p HelloCount.count#=>0はうまくいった。
 bob.hello
 alice.hello
 ruby.hello
-p HelloCount.count　　#=>3が表示されず。
+p HelloCount.count#=>3が表示されず。
