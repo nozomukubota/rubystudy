@@ -1,0 +1,4 @@
+item=nil
+if ary
+item=ary[0]
+end
