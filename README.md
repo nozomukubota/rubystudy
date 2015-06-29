@@ -1,2 +1,0 @@
-# rubystudy
-# cnxt-jobpolicy
